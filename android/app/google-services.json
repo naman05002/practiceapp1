@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1095118584605",
+    "project_id": "practice-app-f29ec",
+    "storage_bucket": "practice-app-f29ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1095118584605:android:caca04c8c6378e49893ff4",
+        "android_client_info": {
+          "package_name": "com.naman05002.practiceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1095118584605-81anqeso5a3q8bba75em0qcka0spon71.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGhTBjMbbp8UjGOePvjmz_iG1xhd4cP3w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1095118584605-81anqeso5a3q8bba75em0qcka0spon71.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
