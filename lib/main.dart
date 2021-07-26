@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:practiceapp/screens/wrapper.dart';
+import 'package:flutter_spinkit/flutter_spinkit.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -52,9 +53,10 @@ class _MyAppState extends State<MyApp> {
     // Show a loader until FlutterFire is initialized
     if (!_initialized) {
       return MaterialApp(
-        home: Scaffold(
-          appBar: AppBar(
-            title: Text('Your app is initializing'),
+        home: Center(
+          child: SpinKitCircle(
+            color: Colors.blue.shade800,
+            size: 50.0,
           ),
         ),
       );
